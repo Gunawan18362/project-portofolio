@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portofolio<span> Gunawan</span></div>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+            </div>
+            <div class="theme-toggle" id="themeToggle">🌙</div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>Halo, Saya <span>Gunawan Wicaksono</span></h1>
+            <p>Mahasiswa Informatika Universitas Jember yang mempunyai keinginan untuk menjadi seorang Web Development ✨</p>
+            <a href="#projects" class="btn">Lihat Projek Saya</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <img src="assets/profill.jpg" alt="Foto Profil" class="profile-img">
+                <div class="about-text">
+                    <p>Saya adalah mahasiswa semester 3 jurusan Informatika di Universitas Jember. Saya berasal dari kota Jember lebih tepatnya di kecamatan Balung. Saya tertarik dalam pengembangan web, desain UI/UX, dan selalu ingin belajar hal baru.</p>
+                    <h3>Skills:</h3>
+                    <div class="skills-icons">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5">
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3">
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python">
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projek Saya</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="assets/Kalkulator.jpg" alt="Project 1">
+                    <h3>Kalkulator</h3>
+                    <p>Kalkulator sederhana dengan tools pengoperasian yang lumayan lengkap.</p>
+                    <a href="tugas.html" class="btn-small">Lihat Detail</a>
+                </div>
+                <div class="project-card">
+                    <img src="assets/toko.jpg" alt="Project 2">
+                    <h3>Website Toko Online</h3>
+                    <p>Website e-commerce sederhana dengan keranjang belanja dan checkout.</p>
+                    <a href="#" class="btn-small">Lihat Detail</a>
+                </div>
+                <div class="project-card">
+                    <img src="assets/gejala.jpg" alt="Project 3">
+                    <h3>Aplikasi Desktop Untuk Konsultasi Gejala</h3>
+                    <p>Aplikasi Desktop sederhana dengan fitur pengecekan gejala.</p>
+                    <a href="#" class="btn-small">Lihat Detail</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portofolio Gunawan Wicaksono.</p>
+        </div>
+    </footer>
+
+    <!--Bio-->
+    <div id="bioModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="bio-header">
+                <img src="assets/profill.jpg" alt="Gunawan Wicaksono" class="bio-avatar">
+                <h2>Gunawan Wicaksono</h2>
+                <p>Mahasiswa Informatika</p>
+            </div>
+            <div class="bio-details">
+                <h3>Biodata Lengkap</h3>
+                <ul>
+                    <li><strong>Nama Lengkap:</strong> Gunawan Wicaksono</li>
+                    <li><strong>Alamat:</strong> Kec. Balung, Kab. Jember, Jawa Timur</li>
+                    <li><strong>Email:</strong> gunawan18@google.com</li>
+                    <li><strong>Telepon:</strong> +62 812-3456-7890</li>
+                    <li><strong>Tanggal Lahir:</strong> 18 Januari 2006</li>
+                    <li><strong>Hobi:</strong> Ngoding, Badminton, Main Game</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
